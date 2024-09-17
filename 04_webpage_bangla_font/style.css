@@ -1,0 +1,81 @@
+/** bangla font end */
+
+
+
+@font-face {
+    font-family: "alinur";
+    src: url(./bangla_font/Li-Alinur-Phulkuri-Unicode.ttf);
+}
+
+@font-face {
+    font-family: "alinur-italic";
+    src: url(./bangla_font/Li-Alinur-Phulkuri-Unicode-Italic.ttf);
+}
+
+@font-face {
+    font-family: "kongka";
+    src: url(./bangla_font/Li-Kongka-Borno-Unicode.ttf);
+}
+
+@font-face {
+    font-family: "kongka-italic";
+    src: url(./bangla_font/Li-Kongka-Borno-Unicode-Italic.ttf);
+}
+
+
+@font-face {
+    font-family: "trinoyonee";
+    src: url(./bangla_font/LiTrinoyoneeUnicode-Regular.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header-area {
+    padding: 5%;
+}
+
+.header h1 {
+    padding-bottom: 3.5rem;
+    font-size: 4vh;
+    text-align: center;
+    font-family: "trinoyonee";
+}
+
+.header-details,
+.header-default {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 50px;
+}
+
+.header-details-all,
+.header-default-title {
+    border: 1px solid rgb(255, 255, 255);
+    margin: 3vh;
+    width: 75%;
+}
+
+.header-details-all h2 {
+    font-family: "kongka-italic";
+    font-size: 3vh;
+}
+
+.header-details-all p {
+    font-family: "alinur";
+    font-weight: 600;
+    font-size: 2vh;
+}
+
+.header-default-title h2 {
+    font-family: "alinur-italic";
+}
+
+.header-default-title {
+    font-family: "kongka";
+}

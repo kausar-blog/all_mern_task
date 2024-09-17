@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 40px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid #04AA6D;
+}
+
+.button i {
+    color: rgba(255, 255, 255, 1);
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: #04AA6D;
+    border: 1px solid #04AA6D;
+    transition: 0.3s;
+}
+
+
+/** header part start */
+.header-area {
+    padding-bottom: 80px;
+    background-color: #F3FCF7;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.header div {
+    float: left;
+    justify-content: space-between;
+}
+
+.header .header-name {
+    margin-left: 200px;
+    padding-top: 10px;
+    color: #06C167;
+}
+
+.header .header-title {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    margin-right: 200px;
+}
+
+.header .header-title ul li {
+    float: left;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.header .header-title ul li a:hover {
+    color: #06C167
+}
+
+/** Header part End */
